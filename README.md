@@ -26,13 +26,6 @@ supply_chain_etl/
 │   ├── processed/            # Parquet cache (git-ignored)
 │   └── exports/              # CSVs for Power BI / Tableau (git-ignored)
 │
-├── etl/
-│   ├── config.py             # Paths, thresholds, DB DSN
-│   ├── logger.py             # Centralised logging
-│   ├── extract.py            # E – CSV / API ingestion
-│   ├── transform.py          # T – Clean, enrich, validate, aggregate
-│   └── load.py               # L – SQLite + Parquet + CSV export
-│
 ├── sql/
 │   ├── schema.sql            # Production DDL (PostgreSQL / SQL Server)
 │   └── kpi_queries.sql       # 7 ready-to-run KPI queries
