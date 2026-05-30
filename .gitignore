@@ -1,0 +1,14 @@
+data/raw/
+data/processed/
+data/exports/
+logs/
+*.db
+*.log
+__pycache__/
+*.pyc
+.pytest_cache/
+.coverage
+*.egg-info/
+dist/
+.env
+.venv/
